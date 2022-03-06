@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Stiluri -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact_style.css">
+
+    <!-- Font si icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasa</a></li>
+                <li><a href="despre.html">Despre noi</a></li>
+                <li><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 id="titlu">Contact</h1>
+        <p style="text-align: center; color: rgb(175, 170, 196);"> ✦ Atelier de croitorie ✦ Haine la comanda ✦ Imprimeuri ✦ Design personalizat ✦</p>
+    </header>
+
+    <!-- Continut -->
+    <section class="contact">
+        <!-- First div -->
+        <div class="contact_fdiv">
+            <h2 style="font-weight: lighter;">Susie Design</h2>
+            <h3>Showroom si atelier</h3>
+            <img id="showroom" src="images/showroom.png" alt="showroom">
+
+            <h3>Program:</h3>
+            <p>Program: L-V: 10:00-18:00 <br> S-D: 10:00-14:00</p>
+            
+            <h3>Date de contact:</h2>
+            <p><i class="fas fa-envelope"></i> Adresa E-mail: contact@susiedesign.ro</p>
+            <p><i class="fas fa-phone-square-alt"></i> Telefon: +40734923684</p>
+            <p>www.susiedesign.ro</p>
+        </div>
+
+        <!-- Second div -->
+        <div class="contact_sdiv">
+            <h2 style="font-weight: lighter; text-align: center;">TRIMITE-NE UN MESAJ</h2>
+
+            <!-- Formular -->
+            <div class="formular">
+                <form action="">
+
+                    <label for="nume">Nume:</label><br>
+                    <input type="text" id="nume" name="nume"><br>
+
+                    <label for="e-mail">E-mail:</label><br>
+                    <input type="text" id="e-mail" name="e-mail"><br>
+
+                    <label>Subiect</label><br>
+                    <select name="subiect" class="field-select">
+                        <option value="Selectează" hidden>Selectează</option>
+                        <option value="Advertise">Întrebare</option>
+                        <option value="Partnership">Comandă</option>
+                    </select><br>
+
+                    <label for="mesaj">Mesaj:</label><br>
+                    <textarea type="text" id="mesaj" name="mesaj"></textarea>
+
+                    <input type="button" value="Trimite" id="send" onclick=location.reload(); method="POST">
+                </form>
+            </div>
+        </div>
+
+        <!-- Third div -->
+        <div class="content_tdiv">
+            <h3 style="text-align: center;">Locatie: <span style="font-weight: lighter;">B-dul. Republicii nr. 136, Ploiești</span></h3>
+            <div class="gmap_canvas">
+                <iframe width="851" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=md%20donalds%20ploiesti&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="f_display">
+            <div class="contact">
+                <h3 style="text-align: center;">Susie Design</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Adresă: B-dul. Republicii nr. 136, Ploiești </p>
+                <p><i class="fas fa-phone-square-alt"></i> Telefon: +40734923684</p>
+                <p><i class="fas fa-envelope"></i> E-mail: contact@susiedesign.ro</p>
+            </div>
+
+            <div class="pagini">
+                <h3>PAGINI:</h3>
+                <p><a href="index.html">Acasa</a><br><a href="despre.html">Despre noi</a><br>
+                    <a href="servicii.html">Servicii</a><br><a href="contact.html">Contact</a></p>
+            </div>
+        </div>
+
+        <div class="rights">
+           <p>© 2020 susiedesign.ro | All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

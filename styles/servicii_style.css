@@ -1,0 +1,85 @@
+section {
+    margin: 50px 300px;
+}
+
+/* TEXT 1 */
+#img1{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text1{
+    display: flex;
+}
+
+/* TEXT 2 */
+.text2 div{
+    margin-top: 50px;
+}
+
+.text2 .divs{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 5px 50px 60px;
+}
+
+.imagini{
+    width: 350px; 
+    height: 250px; 
+    border-radius: 100px;
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Haine la comanda */
+.icon1{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+}
+
+.preturi{
+    display: flex;
+    margin-top: 0px;
+}
+
+.preturi ul,li{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+/* Restilizare haine */
+.icon2{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+/* Retusuri rapide */
+.icon3{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.send_msg{
+    text-align: center;
+    padding: 10px;
+}
+
+.send_msg button{
+    background-color: #5e5faa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send_msg button:hover{
+    background-color: #434480;
+    color: rgb(218, 212, 245);
+}
